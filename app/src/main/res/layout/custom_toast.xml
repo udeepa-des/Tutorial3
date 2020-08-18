@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_toast_layout"
+    android:orientation="vertical"
+    android:background="#F14E23">
+
+    <ImageView
+        android:id="@+id/custom_toast_image"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/android_logo" />
+
+    <TextView
+        android:id="@+id/custom_toast_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:contentDescription="To"
+        android:text="@string/custom_toast_text" />
+</LinearLayout>

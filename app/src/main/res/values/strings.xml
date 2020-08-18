@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">IntentsProj</string>
+    <string name="tv1">Number 1</string>
+    <string name="tv2">Number 2</string>
+    <string name="btn1">OK</string>
+
+    <string name="btn2">+</string>
+    <string name="btn3">-</string>
+    <string name="btn4">*</string>
+    <string name="btn5">/</string>
+
+    <string name="hello_world">Hello world</string>
+    <string name="custom_toast_text">Android Custom Toast</string>
 </resources>
